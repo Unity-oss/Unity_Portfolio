@@ -164,7 +164,7 @@ const translations = {
         {
           degree: "Certificate in AI Engineering",
           org: "Turing College",
-          period: "2025",
+          period: "2025-2026",
         },
         {
           degree: "Certificate in Software Engineering",
@@ -174,7 +174,7 @@ const translations = {
         {
           degree: "BBA, Business Administration",
           org: "Kyambogo University",
-          period: "2023",
+          period: "2019-2023",
         },
       ],
     },
@@ -329,7 +329,7 @@ const translations = {
         {
           degree: "Zertifikat AI Engineering",
           org: "Turing College",
-          period: "2025",
+          period: "2025-2026",
         },
         {
           degree: "Zertifikat Software Engineering",
@@ -339,7 +339,7 @@ const translations = {
         {
           degree: "BBA, Business Administration",
           org: "Kyambogo University",
-          period: "2023",
+          period: "2019-2023",
         },
       ],
     },
@@ -485,7 +485,7 @@ const translations = {
         {
           degree: "Cheti cha AI Engineering",
           org: "Turing College",
-          period: "2025",
+          period: "2025-2026",
         },
         {
           degree: "Cheti cha Software Engineering",
@@ -495,7 +495,7 @@ const translations = {
         {
           degree: "BBA, Business Administration",
           org: "Kyambogo University",
-          period: "2023",
+          period: "2019-2023",
         },
       ],
     },
@@ -640,7 +640,7 @@ const translations = {
         {
           degree: "AI 工程证书",
           org: "Turing College",
-          period: "2025",
+          period: "2025-2026",
         },
         {
           degree: "软件工程证书",
@@ -650,7 +650,7 @@ const translations = {
         {
           degree: "工商管理学士",
           org: "Kyambogo University",
-          period: "2023",
+          period: "2019-2023",
         },
       ],
     },
@@ -794,7 +794,7 @@ const translations = {
         {
           degree: "شهادة هندسة الذكاء الاصطناعي",
           org: "Turing College",
-          period: "2025",
+          period: "2025-2026",
         },
         {
           degree: "شهادة هندسة البرمجيات",
@@ -804,7 +804,7 @@ const translations = {
         {
           degree: "بكالوريوس ادارة الاعمال",
           org: "Kyambogo University",
-          period: "2023",
+          period: "2019-2023",
         },
       ],
     },
