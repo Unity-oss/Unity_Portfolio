@@ -47,6 +47,16 @@ const projectLinks = [
     url: "https://github.com/Unity-oss/Monica_chatbot.git",
     descKey: "projMonica",
   },
+  {
+    name: "Customer Support Chatbot",
+    url: "https://github.com/Unity-oss/customer_support_chatbot.git",
+    descKey: "projCustomerSupport",
+  },
+  {
+    name: "LavAna",
+    url: "https://github.com/Unity-oss/LavAna.git",
+    descKey: "projLavana",
+  },
 ];
 
 const translations = {
@@ -63,9 +73,9 @@ const translations = {
     },
     hero: {
       title: "Unity Busingye",
-      subtitle: "AI Engineer + LLM Application Builder",
+      subtitle: "AI Engineer · Full-Stack Developer · LLM & NLP Systems",
       intro:
-        "I design and deploy AI-powered systems across agent development, automation workflows, and RAG-based knowledge systems. Building chatbots, intelligent assistants, and data-driven apps that integrate seamlessly with APIs and SaaS tools to turn complex processes into scalable, real-world applications.",
+        "I build production-grade LLM applications, RAG pipelines, autonomous AI agents, and NLP-powered systems — delivering end-to-end AI products across fintech, healthtech, accessibility, and e-commerce. Deep expertise in LangChain, LangGraph, Hugging Face, and vector search, paired with strong full-stack Python/Django skills and experience integrating SaaS/ERP platforms.",
       ctaPrimary: "See Projects",
       ctaSecondary: "Contact Me",
       badge: "Open to remote + relocation",
@@ -73,7 +83,7 @@ const translations = {
     about: {
       title: "About",
       body:
-        "I approach AI engineering as a systems problem. Designing how intelligence interacts with data, tools, and users to create meaningful outcomes. My work focuses on building reliable, production-ready AI systems that automate decisions, enhance workflows, and turn raw information into actionable insight.",
+        "I build production-grade LLM applications, RAG pipelines, and NLP-powered systems with a track record delivering end-to-end AI products across fintech, healthtech, accessibility, and e-commerce — from architecture to deployment. My work combines deep AI expertise with strong full-stack engineering and ERP integration experience, focused on applying AI to solve real problems across Africa and beyond.",
       highlightsTitle: "Focus Areas",
       highlights: [
         "AI agents for real-world automation and decision-making",
@@ -87,40 +97,57 @@ const translations = {
       title: "Skills",
       groups: [
         {
-          title: "AI Backend & Systems",
+          title: "AI & Machine Learning",
           items: [
-            "Vector databases (Pinecone, Weaviate, FAISS) for retrieval and memory",
-            "Multi-agent orchestration frameworks (LangGraph, LangChain, AutoGPT)",
-            "RAG pipelines and knowledge management systems",
-            "Workflow automation and API integrations for AI pipelines",
-            "Monitoring, logging, and evaluation for scalable AI systems",
+            "LangChain · LangGraph · RAG pipelines · AI agents · prompt engineering",
+            "Model finetuning, embeddings, and vector databases (FAISS, Chroma, Pinecone)",
+            "Multi-agent orchestration and autonomous workflow design",
+            "Monitoring, logging, and LLM evaluation for production systems",
+          ],
+        },
+        {
+          title: "NLP & LLM Systems",
+          items: [
+            "Hugging Face Transformers · spaCy · NLTK for NLP pipelines",
+            "Intent classification, named entity recognition, sentiment analysis",
+            "OpenAI API · Anthropic Claude API · Gemini · Ollama integrations",
+            "Text-to-Speech (TTS) and Automatic Speech Recognition (ASR)",
+          ],
+        },
+        {
+          title: "Backend & Full-Stack",
+          items: [
+            "Python · Django · Flask · FastAPI · WebSockets · RESTful APIs",
+            "PostgreSQL · authentication systems · webhook automation",
+            "JavaScript · HTML · CSS · responsive UI · React Native",
+            "Docker · CI/CD · Render · Railway · Git and GitHub",
           ],
         },
         {
           title: "Data & Retrieval",
           items: [
-            "Embeddings-based search and semantic ranking",
-            "Knowledge base design and RAG pipelines",
-            "Document ingestion and preprocessing",
-            "Vector-based search and memory optimization",
+            "Vector databases (FAISS, Chroma, Pinecone, Weaviate) for semantic search",
+            "Knowledge base design and document ingestion pipelines",
+            "Embeddings-based search, semantic ranking, and RAG architecture",
+            "Data preprocessing and retrieval optimization",
           ],
         },
         {
-          title: "AI Tools & Practices",
+          title: "ERP & Integrations",
           items: [
-           "OpenAI, Claude, Gemini, Ollama integrations",
-           "Multi-model orchestration and tool calling",
-           "Clean architecture and modular system design",
-           "Agile collaboration, Git, and version control",
+            "SaaS platforms · QuickBooks · Microsoft Business Central",
+            "Third-party API integrations and system configuration",
+            "Mobile payment APIs and e-commerce platform integrations",
+            "Technical onboarding, user training, and adoption monitoring",
           ],
         },
         {
           title: "Soft Skills",
           items: [
-            "Problem-solving and critical thinking",
-            "Collaboration in multi-disciplinary teams",
-            "Effective communication of technical concepts",
-            "Adaptability and rapid learning in evolving AI technologies",
+            "Problem-solving and critical thinking in complex AI domains",
+            "Collaboration in multi-disciplinary and cross-functional teams",
+            "Clear communication of technical concepts to non-technical stakeholders",
+            "Adaptability and rapid learning in fast-evolving AI environments",
           ],
         },
       ],
@@ -133,14 +160,14 @@ const translations = {
           org: "Aster Consulting Group",
           period: "2026 - Present",
           detail:
-            "Built AI solutions for startups and SMEs, led audits, automation workflows, and ethical AI guidance.",
+            "Lead end-to-end AI platform implementation for startups and SMEs. Configure SaaS/AI agent solutions, conduct user onboarding and technical training, and serve as the primary liaison between product, engineering, and client success.",
         },
         {
           role: "Full-Stack Developer",
           org: "Codveda Technologies",
           period: "2025",
           detail:
-            "Delivered web applications, authentication systems, and performance improvements across APIs.",
+            "Built and deployed scalable web applications using Python, Django, and PostgreSQL. Developed RESTful APIs for third-party integrations and contributed to documentation and high-uptime deployments.",
         },
         {
           role: "Accounting Intern",
@@ -198,7 +225,11 @@ const translations = {
         projFinance:
         "An AI finance assistant leveraging RAG and tool calling to teach budgeting, savings, and debt management, built with LangChain and Streamlit.",
         projTripMind:
-        "An intelligent travel planning assistant that uses a multi-agent architecture to provide comprehensive, personalized travel recommendations."
+        "An intelligent travel planning assistant that uses a multi-agent architecture to provide comprehensive, personalized travel recommendations.",
+        projCustomerSupport:
+        "NLP-powered customer support chatbot with intent classification, entity recognition, and multilingual response generation for seamless automated assistance.",
+        projLavana:
+        "AI fintech platform empowering women with savings management, loan applications, SACCO operations, and LLM-driven credit scoring and financial literacy agents.",
       },
     },
     contact: {
@@ -230,9 +261,9 @@ const translations = {
     },
     hero: {
       title: "Unity Busingye",
-      subtitle: "KI-Ingenieur + LLM-App-Builder",
+      subtitle: "KI-Ingenieur · Full-Stack-Entwickler · LLM & NLP-Systeme",
       intro:
-        "Ich entwickle KI-Produkte von der Idee bis zur Produktion: Retrieval-Systeme, Agent-Workflows und Multi-Model-Orchestrierung fur echte Business-Ziele.",
+        "Ich entwickle produktionsreife LLM-Anwendungen, RAG-Pipelines, autonome KI-Agenten und NLP-Systeme fur Fintech, Healthtech und E-Commerce — von der Architektur bis zur Bereitstellung. Starke Full-Stack-Python/Django-Grundlage und Erfahrung mit SaaS/ERP-Plattformen.",
       ctaPrimary: "Projekte ansehen",
       ctaSecondary: "Kontakt",
       badge: "Offen fur Remote + Umzug",
@@ -240,7 +271,7 @@ const translations = {
     about: {
       title: "Profil",
       body:
-        "KI-orientierter Engineer mit starkem Python- und Backend-Fokus. Ich baue praxisnahe LLM-Losungen mit RAG, Tool-Calling, Memory und Evaluation.",
+        "Ich entwickle produktionsreife LLM-Anwendungen, RAG-Pipelines und NLP-Systeme mit nachgewiesener Erfahrung in Fintech, Healthtech, Barrierefreiheit und E-Commerce — von der Architektur bis zur Bereitstellung. Starke Full-Stack-Python/Django-Grundlage und Erfahrung mit ERP-Integrationen.",
       highlightsTitle: "Schwerpunkte",
       highlights: [
         "AI agents for real-world automation and decision-making",
@@ -254,40 +285,57 @@ const translations = {
       title: "Skills",
       groups: [
         {
-          title: "KI Backend & Systems",
+          title: "KI & Machine Learning",
           items: [
-            "Vector databases (Pinecone, Weaviate, FAISS) for retrieval and memory",
-            "Multi-agent orchestration frameworks (LangGraph, LangChain, AutoGPT)",
-            "RAG pipelines and knowledge management systems",
-            "Workflow automation and API integrations for AI pipelines",
-            "Monitoring, logging, and evaluation for scalable AI systems",
+            "LangChain · LangGraph · RAG pipelines · AI agents · prompt engineering",
+            "Model finetuning, embeddings, and vector databases (FAISS, Chroma, Pinecone)",
+            "Multi-agent orchestration and autonomous workflow design",
+            "Monitoring, logging, and LLM evaluation for production systems",
+          ],
+        },
+        {
+          title: "NLP & LLM-Systeme",
+          items: [
+            "Hugging Face Transformers · spaCy · NLTK for NLP pipelines",
+            "Intent classification, named entity recognition, sentiment analysis",
+            "OpenAI API · Anthropic Claude API · Gemini · Ollama integrations",
+            "Text-to-Speech (TTS) and Automatic Speech Recognition (ASR)",
+          ],
+        },
+        {
+          title: "Backend & Full-Stack",
+          items: [
+            "Python · Django · Flask · FastAPI · WebSockets · RESTful APIs",
+            "PostgreSQL · authentication systems · webhook automation",
+            "JavaScript · HTML · CSS · responsive UI · React Native",
+            "Docker · CI/CD · Render · Railway · Git and GitHub",
           ],
         },
         {
           title: "Data & Retrieval",
           items: [
-            "Embeddings-based search and semantic ranking",
-            "Knowledge base design and RAG pipelines",
-            "Document ingestion and preprocessing",
-            "Vector-based search and memory optimization",
+            "Vector databases (FAISS, Chroma, Pinecone, Weaviate) for semantic search",
+            "Knowledge base design and document ingestion pipelines",
+            "Embeddings-based search, semantic ranking, and RAG architecture",
+            "Data preprocessing and retrieval optimization",
           ],
         },
         {
-          title: "KI Tools & Practices",
+          title: "ERP & Integrationen",
           items: [
-           "OpenAI, Claude, Gemini, Ollama integrations",
-           "Multi-model orchestration and tool calling",
-           "Clean architecture and modular system design",
-           "Agile collaboration, Git, and version control",
+            "SaaS platforms · QuickBooks · Microsoft Business Central",
+            "Third-party API integrations and system configuration",
+            "Mobile payment APIs and e-commerce platform integrations",
+            "Technical onboarding, user training, and adoption monitoring",
           ],
         },
         {
           title: "Soft Skills",
           items: [
-            "Problem-solving and critical thinking",
-            "Collaboration in multi-disciplinary teams",
-            "Effective communication of technical concepts",
-            "Adaptability and rapid learning in evolving AI technologies",
+            "Problem-solving and critical thinking in complex AI domains",
+            "Collaboration in multi-disciplinary and cross-functional teams",
+            "Clear communication of technical concepts to non-technical stakeholders",
+            "Adaptability and rapid learning in fast-evolving AI environments",
           ],
         },
       ],
@@ -355,7 +403,11 @@ const translations = {
         projMonica: "Voice-Chatbot mit Charakterlogik.",
         projFinance:
           "An AI finance assistant leveraging RAG and tool calling to teach budgeting, savings, and debt management, built with LangChain and Streamlit.",
-        projTripMind: "An intelligent travel planning assistant that uses a multi-agent architecture to provide comprehensive, personalized travel recommendations."
+        projTripMind: "An intelligent travel planning assistant that uses a multi-agent architecture to provide comprehensive, personalized travel recommendations.",
+        projCustomerSupport:
+          "NLP-gesteuerter Support-Chatbot mit Intent-Klassifikation, Entitätserkennung und mehrsprachiger Antwortgenerierung für automatisierten Kundenservice.",
+        projLavana:
+          "KI-Fintech-Plattform zur Stärkung von Frauen mit Sparmanagement, Kreditanträgen, SACCO-Betrieb und KI-gestütztem Kreditscoring.",
       },
     },
     contact: {
@@ -387,9 +439,9 @@ const translations = {
     },
     hero: {
       title: "Unity Busingye",
-      subtitle: "Mhandisi wa AI + Mtengenezaji wa LLM",
+      subtitle: "Mhandisi wa AI · Msanidi Programu wa Full-Stack · Mifumo ya LLM & NLP",
       intro:
-        "Naunda bidhaa za AI kutoka wazo hadi uzalishaji: mifumo ya retrieval, agent workflows, na uendeshaji wa mifano mingi kwa mahitaji ya biashara.",
+        "Najenga programu za LLM za daraja la uzalishaji, mabomba ya RAG, mawakala wa AI, na mifumo ya NLP katika sekta ya fedha, afya, na biashara ya mtandao — kutoka usanifu hadi utekelezaji. Uzoefu wa kina wa Python/Django na ujumuishaji wa majukwaa ya SaaS/ERP.",
       ctaPrimary: "Tazama Miradi",
       ctaSecondary: "Wasiliana",
       badge: "Niko wazi kwa remote + kuhama",
@@ -397,7 +449,7 @@ const translations = {
     about: {
       title: "Kuhusu",
       body:
-        "Mhandisi wa AI mwenye msingi imara wa Python na backend. Najenga suluhisho za LLM kwa RAG, tool calling, memory, na tathmini.",
+        "Najenga programu za LLM za daraja la uzalishaji, mabomba ya RAG, na mifumo ya NLP, na rekodi ya kutoa bidhaa za AI katika sekta ya fedha, afya, ufikio, na biashara ya mtandao — kutoka usanifu hadi utekelezaji.",
       highlightsTitle: "Mazingira ya Kazi",
       highlights: [
         "AI agents for real-world automation and decision-making",
@@ -411,40 +463,57 @@ const translations = {
       title: "Ujuzi",
       groups: [
         {
-          title: "AI Backend & Systems",
+          title: "AI & Ujifunzaji wa Mashine",
           items: [
-            "Vector databases (Pinecone, Weaviate, FAISS) for retrieval and memory",
-            "Multi-agent orchestration frameworks (LangGraph, LangChain, AutoGPT)",
-            "RAG pipelines and knowledge management systems",
-            "Workflow automation and API integrations for AI pipelines",
-            "Monitoring, logging, and evaluation for scalable AI systems",
+            "LangChain · LangGraph · RAG pipelines · AI agents · prompt engineering",
+            "Model finetuning, embeddings, and vector databases (FAISS, Chroma, Pinecone)",
+            "Multi-agent orchestration and autonomous workflow design",
+            "Monitoring, logging, and LLM evaluation for production systems",
           ],
         },
         {
-          title: "Data & Retrieval",
+          title: "NLP & Mifumo ya LLM",
           items: [
-            "Embeddings-based search and semantic ranking",
-            "Knowledge base design and RAG pipelines",
-            "Document ingestion and preprocessing",
-            "Vector-based search and memory optimization",
+            "Hugging Face Transformers · spaCy · NLTK for NLP pipelines",
+            "Intent classification, named entity recognition, sentiment analysis",
+            "OpenAI API · Anthropic Claude API · Gemini · Ollama integrations",
+            "Text-to-Speech (TTS) and Automatic Speech Recognition (ASR)",
           ],
         },
         {
-          title: "AI Tools & Practices",
+          title: "Backend & Full-Stack",
           items: [
-           "OpenAI, Claude, Gemini, Ollama integrations",
-           "Multi-model orchestration and tool calling",
-           "Clean architecture and modular system design",
-           "Agile collaboration, Git, and version control",
+            "Python · Django · Flask · FastAPI · WebSockets · RESTful APIs",
+            "PostgreSQL · authentication systems · webhook automation",
+            "JavaScript · HTML · CSS · responsive UI · React Native",
+            "Docker · CI/CD · Render · Railway · Git and GitHub",
           ],
         },
         {
-          title: "Soft Skills",
+          title: "Data & Utafutaji",
           items: [
-            "Problem-solving and critical thinking",
-            "Collaboration in multi-disciplinary teams",
-            "Effective communication of technical concepts",
-            "Adaptability and rapid learning in evolving AI technologies",
+            "Vector databases (FAISS, Chroma, Pinecone, Weaviate) for semantic search",
+            "Knowledge base design and document ingestion pipelines",
+            "Embeddings-based search, semantic ranking, and RAG architecture",
+            "Data preprocessing and retrieval optimization",
+          ],
+        },
+        {
+          title: "ERP & Muunganiko",
+          items: [
+            "SaaS platforms · QuickBooks · Microsoft Business Central",
+            "Third-party API integrations and system configuration",
+            "Mobile payment APIs and e-commerce platform integrations",
+            "Technical onboarding, user training, and adoption monitoring",
+          ],
+        },
+        {
+          title: "Ujuzi Laini",
+          items: [
+            "Problem-solving and critical thinking in complex AI domains",
+            "Collaboration in multi-disciplinary and cross-functional teams",
+            "Clear communication of technical concepts to non-technical stakeholders",
+            "Adaptability and rapid learning in fast-evolving AI environments",
           ],
         },
       ],
@@ -511,7 +580,11 @@ const translations = {
         projMonica: "Chatbot yenye sauti na tabia maalum.",
         projFinance:
           "An AI finance assistant leveraging RAG and tool calling to teach budgeting, savings, and debt management, built with LangChain and Streamlit.",
-        projTripMind: "An intelligent travel planning assistant that uses a multi-agent architecture to provide comprehensive, personalized travel recommendations."
+        projTripMind: "An intelligent travel planning assistant that uses a multi-agent architecture to provide comprehensive, personalized travel recommendations.",
+        projCustomerSupport:
+          "Chatbot ya usaidizi wa wateja inayotumia NLP kwa uainishaji wa nia, utambuzi wa huluki, na majibu ya lugha nyingi kwa usaidizi wa kiotomasi.",
+        projLavana:
+          "Jukwaa la AI fintech linalowawezesha wanawake kwa usimamizi wa akiba, maombi ya mikopo, shughuli za SACCO, na mawakala wa ujuzi wa fedha wenye AI.",
       },
     },
     contact: {
@@ -543,9 +616,9 @@ const translations = {
     },
     hero: {
       title: "Unity Busingye",
-      subtitle: "AI 工程师 + LLM 应用开发",
+      subtitle: "AI工程师 · 全栈开发者 · LLM与NLP系统",
       intro:
-        "我把 AI 产品从想法推进到落地：检索系统、智能体流程和多模型协作，专注解决真实业务问题。",
+        "我构建生产级LLM应用、RAG管道、自主AI智能体和NLP系统，在金融科技、医疗科技和电商领域拥有端到端AI产品交付经验。深厚的Python/Django全栈基础，熟悉SaaS/ERP平台集成。",
       ctaPrimary: "查看项目",
       ctaSecondary: "联系我",
       badge: "可远程/可搬迁",
@@ -553,7 +626,7 @@ const translations = {
     about: {
       title: "关于",
       body:
-        "专注 AI 的工程师，Python 与后端基础扎实。擅长 RAG、工具调用、记忆与评估，把业务目标转成可扩展系统。",
+        "构建生产级LLM应用、RAG管道和NLP系统，在金融科技、医疗科技、无障碍技术和电商领域有端到端AI产品交付经验。深厚的Python/Django全栈基础，熟悉ERP平台集成，致力于用AI解决非洲及全球的真实问题。",
       highlightsTitle: "专长方向",
       highlights: [
         "AI agents for real-world automation and decision-making",
@@ -567,40 +640,57 @@ const translations = {
       title: "技能",
       groups: [
         {
-          title: "AI 后端 & 系统",
+          title: "AI与机器学习",
           items: [
-            "Vector databases (Pinecone, Weaviate, FAISS) for retrieval and memory",
-            "Multi-agent orchestration frameworks (LangGraph, LangChain, AutoGPT)",
-            "RAG pipelines and knowledge management systems",
-            "Workflow automation and API integrations for AI pipelines",
-            "Monitoring, logging, and evaluation for scalable AI systems",
+            "LangChain · LangGraph · RAG pipelines · AI agents · prompt engineering",
+            "Model finetuning, embeddings, and vector databases (FAISS, Chroma, Pinecone)",
+            "Multi-agent orchestration and autonomous workflow design",
+            "Monitoring, logging, and LLM evaluation for production systems",
           ],
         },
         {
-          title: "数据 & 检索",
+          title: "NLP与大语言模型",
           items: [
-            "Embeddings-based search and semantic ranking",
-            "Knowledge base design and RAG pipelines",
-            "Document ingestion and preprocessing",
-            "Vector-based search and memory optimization",
+            "Hugging Face Transformers · spaCy · NLTK for NLP pipelines",
+            "Intent classification, named entity recognition, sentiment analysis",
+            "OpenAI API · Anthropic Claude API · Gemini · Ollama integrations",
+            "Text-to-Speech (TTS) and Automatic Speech Recognition (ASR)",
           ],
         },
         {
-          title: "AI 工具 & 实践",
+          title: "后端与全栈开发",
           items: [
-           "OpenAI, Claude, Gemini, Ollama integrations",
-           "Multi-model orchestration and tool calling",
-           "Clean architecture and modular system design",
-           "Agile collaboration, Git, and version control",
+            "Python · Django · Flask · FastAPI · WebSockets · RESTful APIs",
+            "PostgreSQL · authentication systems · webhook automation",
+            "JavaScript · HTML · CSS · responsive UI · React Native",
+            "Docker · CI/CD · Render · Railway · Git and GitHub",
+          ],
+        },
+        {
+          title: "数据与检索",
+          items: [
+            "Vector databases (FAISS, Chroma, Pinecone, Weaviate) for semantic search",
+            "Knowledge base design and document ingestion pipelines",
+            "Embeddings-based search, semantic ranking, and RAG architecture",
+            "Data preprocessing and retrieval optimization",
+          ],
+        },
+        {
+          title: "ERP与系统集成",
+          items: [
+            "SaaS platforms · QuickBooks · Microsoft Business Central",
+            "Third-party API integrations and system configuration",
+            "Mobile payment APIs and e-commerce platform integrations",
+            "Technical onboarding, user training, and adoption monitoring",
           ],
         },
         {
           title: "软技能",
           items: [
-            "Problem-solving and critical thinking",
-            "Collaboration in multi-disciplinary teams",
-            "Effective communication of technical concepts",
-            "Adaptability and rapid learning in evolving AI technologies",
+            "Problem-solving and critical thinking in complex AI domains",
+            "Collaboration in multi-disciplinary and cross-functional teams",
+            "Clear communication of technical concepts to non-technical stakeholders",
+            "Adaptability and rapid learning in fast-evolving AI environments",
           ],
         },
       ],
@@ -666,7 +756,11 @@ const translations = {
         projMonica: "支持语音的聊天机器人与角色逻辑。",
         projFinance:
           "An AI finance assistant leveraging RAG and tool calling to teach budgeting, savings, and debt management, built with LangChain and Streamlit.",
-        projTripMind: "An intelligent travel planning assistant that uses a multi-agent architecture to provide comprehensive, personalized travel recommendations."
+        projTripMind: "An intelligent travel planning assistant that uses a multi-agent architecture to provide comprehensive, personalized travel recommendations.",
+        projCustomerSupport:
+          "基于NLP的客服聊天机器人，支持意图分类、实体识别和多语言自动响应，提供无缝自动化客户支持。",
+        projLavana:
+          "赋能女性的AI金融科技平台，涵盖储蓄管理、贷款申请、SACCO运营和LLM驱动的信用评分与金融素养智能体。",
       },
     },
     contact: {
@@ -696,9 +790,9 @@ const translations = {
     },
     hero: {
       title: "Unity Busingye",
-      subtitle: "مهندس ذكاء اصطناعي + مطور تطبيقات LLM",
+      subtitle: "مهندس ذكاء اصطناعي · مطور Full-Stack · أنظمة LLM ومعالجة اللغة",
       intro:
-        "اطور منتجات ذكاء اصطناعي من الفكرة الى التنفيذ: انظمة استرجاع، تدفقات وكلاء، وتنسيق نماذج متعددة لحل تحديات الاعمال.",
+        "ابني تطبيقات LLM على مستوى الانتاج وخطوط انابيب RAG ووكلاء AI مستقلين وانظمة NLP عبر قطاعات التقنية المالية والرعاية الصحية والتجارة الالكترونية — من التصميم الى التنفيذ.",
       ctaPrimary: "عرض المشاريع",
       ctaSecondary: "تواصل معي",
       badge: "متاح للعمل عن بعد والتنقل",
@@ -706,7 +800,7 @@ const translations = {
     about: {
       title: "نبذة",
       body:
-        "مهندس يركز على الذكاء الاصطناعي مع اساس قوي في بايثون والباك اند. ابني حلول LLM باستخدام RAG وادوات الاستدعاء والذاكرة والتقييم.",
+        "ابني تطبيقات LLM على مستوى الانتاج وخطوط انابيب RAG وانظمة NLP، مع سجل حافل في تسليم منتجات AI في قطاعات التقنية المالية والرعاية الصحية وسهولة الوصول والتجارة الالكترونية — من التصميم الى التنفيذ.",
       highlightsTitle: "مجالات التركيز",
       highlights: [
         "AI agents for real-world automation and decision-making",
@@ -720,40 +814,57 @@ const translations = {
       title: "المهارات",
       groups: [
         {
-          title: "AI Backend & Systems",
+          title: "الذكاء الاصطناعي والتعلم الآلي",
           items: [
-            "Vector databases (Pinecone, Weaviate, FAISS) for retrieval and memory",
-            "Multi-agent orchestration frameworks (LangGraph, LangChain, AutoGPT)",
-            "RAG pipelines and knowledge management systems",
-            "Workflow automation and API integrations for AI pipelines",
-            "Monitoring, logging, and evaluation for scalable AI systems",
+            "LangChain · LangGraph · RAG pipelines · AI agents · prompt engineering",
+            "Model finetuning, embeddings, and vector databases (FAISS, Chroma, Pinecone)",
+            "Multi-agent orchestration and autonomous workflow design",
+            "Monitoring, logging, and LLM evaluation for production systems",
           ],
         },
         {
-          title: "البيانات & الاسترجاع",
+          title: "معالجة اللغة الطبيعية وأنظمة LLM",
           items: [
-            "Embeddings-based search and semantic ranking",
-            "Knowledge base design and RAG pipelines",
-            "Document ingestion and preprocessing",
-            "Vector-based search and memory optimization",
+            "Hugging Face Transformers · spaCy · NLTK for NLP pipelines",
+            "Intent classification, named entity recognition, sentiment analysis",
+            "OpenAI API · Anthropic Claude API · Gemini · Ollama integrations",
+            "Text-to-Speech (TTS) and Automatic Speech Recognition (ASR)",
           ],
         },
         {
-          title: "AI Tools & Practices",
+          title: "الباك اند والتطوير الشامل",
           items: [
-           "OpenAI, Claude, Gemini, Ollama integrations",
-           "Multi-model orchestration and tool calling",
-           "Clean architecture and modular system design",
-           "Agile collaboration, Git, and version control",
+            "Python · Django · Flask · FastAPI · WebSockets · RESTful APIs",
+            "PostgreSQL · authentication systems · webhook automation",
+            "JavaScript · HTML · CSS · responsive UI · React Native",
+            "Docker · CI/CD · Render · Railway · Git and GitHub",
+          ],
+        },
+        {
+          title: "البيانات والاسترجاع",
+          items: [
+            "Vector databases (FAISS, Chroma, Pinecone, Weaviate) for semantic search",
+            "Knowledge base design and document ingestion pipelines",
+            "Embeddings-based search, semantic ranking, and RAG architecture",
+            "Data preprocessing and retrieval optimization",
+          ],
+        },
+        {
+          title: "ERP والتكاملات",
+          items: [
+            "SaaS platforms · QuickBooks · Microsoft Business Central",
+            "Third-party API integrations and system configuration",
+            "Mobile payment APIs and e-commerce platform integrations",
+            "Technical onboarding, user training, and adoption monitoring",
           ],
         },
         {
           title: "المهارات الناعمة",
           items: [
-            "Problem-solving and critical thinking",
-            "Collaboration in multi-disciplinary teams",
-            "Effective communication of technical concepts",
-            "Adaptability and rapid learning in evolving AI technologies",
+            "Problem-solving and critical thinking in complex AI domains",
+            "Collaboration in multi-disciplinary and cross-functional teams",
+            "Clear communication of technical concepts to non-technical stakeholders",
+            "Adaptability and rapid learning in fast-evolving AI environments",
           ],
         },
       ],
@@ -820,7 +931,11 @@ const translations = {
         projMonica: "شات بوت صوتي بمنطق شخصية.",
         projFinance:
           "An AI finance assistant leveraging RAG and tool calling to teach budgeting, savings, and debt management, built with LangChain and Streamlit.",
-        projTripMind: "An intelligent travel planning assistant that uses a multi-agent architecture to provide comprehensive, personalized travel recommendations."
+        projTripMind: "An intelligent travel planning assistant that uses a multi-agent architecture to provide comprehensive, personalized travel recommendations.",
+        projCustomerSupport:
+          "روبوت دعم عملاء مدعوم بـ NLP مع تصنيف النوايا والتعرف على الكيانات وتوليد استجابات متعددة اللغات للمساعدة الآلية.",
+        projLavana:
+          "منصة تقنية مالية AI لتمكين المرأة بإدارة المدخرات والقروض وعمليات SACCO وتسجيل الائتمان ومحادثات التثقيف المالي بالذكاء الاصطناعي.",
       },
     },
     contact: {
