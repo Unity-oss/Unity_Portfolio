@@ -157,30 +157,37 @@ const translations = {
       title: "Experience",
       items: [
         {
+          role: "DevOps Engineer",
+          org: "Promerget GmbH (Berlin, Germany)",
+          period: "Nov 2026 - Present",
+          detail:
+            "Provision and harden production Linux servers, manage deployments and systemd services, support Stripe payment integration, and configure DNS/email deliverability (SPF, DKIM, DMARC) and uptime monitoring.",
+        },
+        {
+          role: "AI Engineer",
+          org: "Groundbreaker Talents",
+          period: "Oct 2026 - Present",
+          detail:
+            "Build browser automation for a production data-collection pipeline, trained and deployed a YOLO-based image classifier exported to ONNX, and engineered a labeled dataset for a content-safety system.",
+        },
+        {
+          role: "Software & Automations Developer",
+          org: "Voyager AI GmbH (Berlin, Germany)",
+          period: "Jul 2026 - Present",
+          detail:
+            "Built and maintain two production automation systems on self-hosted n8n (an Instagram content pipeline and a WhatsApp support chatbot with an LLM agent), plus full-stack AI web platforms with Next.js, React, TypeScript, and Supabase.",
+        },
+        {
           role: "AI Engineer",
           org: "AdminIE Technologies",
-          period: "Jul 2026 - Nov 2026",
+          period: "Jun 2026 - Nov 2026",
           detail:
             "Built AI agent products for an enterprise grants-management platform: a human-in-the-loop hiring agent and an autonomous grant-discovery agent, across the Python/FastAPI/LangGraph stack, plus production monitoring and incident response.",
         },
         {
-          role: "Freelance Developer",
-          org: "Voyager AI GmbH (Germany)",
-          period: "Aug 2026 - Present",
-          detail:
-            "Build and maintain backend services for a travel brand, including n8n social-publishing pipelines backed by Supabase, working directly with the founder across time zones.",
-        },
-        {
-          role: "Lead AI/Tech Consultant",
-          org: "LavAna Technologies",
-          period: "2026 - Present",
-          detail:
-            "Lead end-to-end AI platform implementation for startups and SMEs. Configure SaaS/AI agent solutions, conduct user onboarding and technical training, and serve as the primary liaison between product, engineering, and client success.",
-        },
-        {
           role: "Full-Stack Developer",
           org: "Codveda Technologies",
-          period: "2025",
+          period: "Nov 2025 - Dec 2025",
           detail:
             "Built and deployed scalable web applications using Python, Django, and PostgreSQL. Developed RESTful APIs for third-party integrations and contributed to documentation and high-uptime deployments.",
         },
@@ -360,30 +367,37 @@ const translations = {
       title: "Erfahrung",
       items: [
         {
+          role: "DevOps Engineer",
+          org: "Promerget GmbH (Berlin, Deutschland)",
+          period: "Nov 2026 - Heute",
+          detail:
+            "Hartung produktiver Linux-Server, systemd-Deployments, Stripe-Zahlungsintegration und DNS/E-Mail-Zustellbarkeit (SPF, DKIM, DMARC).",
+        },
+        {
+          role: "KI-Ingenieur",
+          org: "Groundbreaker Talents",
+          period: "Okt 2026 - Heute",
+          detail:
+            "Browser-Automatisierung fur eine Daten-Pipeline, trainierter und eingesetzter YOLO-Bildklassifikator (ONNX), Datensatz-Engineering fur ein Content-Safety-System.",
+        },
+        {
+          role: "Software & Automations Developer",
+          org: "Voyager AI GmbH (Berlin, Deutschland)",
+          period: "Jul 2026 - Heute",
+          detail:
+            "Zwei Produktions-Automatisierungssysteme auf selbst gehostetem n8n (Instagram-Pipeline und WhatsApp-Support-Chatbot mit LLM-Agent), plus Full-Stack-KI-Plattformen mit Next.js, React, TypeScript und Supabase.",
+        },
+        {
           role: "KI-Ingenieur",
           org: "AdminIE Technologies",
-          period: "Jul 2026 - Nov 2026",
+          period: "Jun 2026 - Nov 2026",
           detail:
             "KI-Agenten fur eine Grants-Management-Plattform: Hiring-Agent mit Human-in-the-loop und ein autonomer Grant-Discovery-Agent, plus Produktionsmonitoring.",
         },
         {
-          role: "Freelance-Entwickler",
-          org: "Voyager AI GmbH (Deutschland)",
-          period: "Aug 2026 - Heute",
-          detail:
-            "Backend-Services fur eine Reise-Marke, inkl. n8n-Publishing-Pipelines mit Supabase, in direkter Zusammenarbeit mit dem Grunder.",
-        },
-        {
-          role: "Lead KI/Tech Consultant",
-          org: "LavAna Technologies",
-          period: "2026 - Heute",
-          detail:
-            "KI-Losungen fur Startups und KMU, Audits, Automatisierung und ethische Beratung.",
-        },
-        {
           role: "Full-Stack Developer",
           org: "Codveda Technologies",
-          period: "2025",
+          period: "Nov 2025 - Dez 2025",
           detail:
             "Web-Apps, Authentifizierung und Performance-Optimierungen.",
         },
@@ -553,30 +567,37 @@ const translations = {
       title: "Uzoefu",
       items: [
         {
+          role: "DevOps Engineer",
+          org: "Promerget GmbH (Berlin, Germany)",
+          period: "Nov 2026 - Sasa",
+          detail:
+            "Kuimarisha seva za Linux za uzalishaji, deployments za systemd, msaada wa malipo ya Stripe, na usanidi wa DNS/barua pepe (SPF, DKIM, DMARC).",
+        },
+        {
+          role: "AI Engineer",
+          org: "Groundbreaker Talents",
+          period: "Okt 2026 - Sasa",
+          detail:
+            "Nilijenga browser automation kwa data-collection pipeline, kufunza na kutumia YOLO image classifier (ONNX), na kujenga dataset kwa mfumo wa content-safety.",
+        },
+        {
+          role: "Software & Automations Developer",
+          org: "Voyager AI GmbH (Berlin, Germany)",
+          period: "Jul 2026 - Sasa",
+          detail:
+            "Mifumo miwili ya automation kwenye n8n (Instagram pipeline na WhatsApp support chatbot yenye LLM agent), pamoja na majukwaa ya AI ya full-stack kwa Next.js, React, TypeScript, na Supabase.",
+        },
+        {
           role: "AI Engineer",
           org: "AdminIE Technologies",
-          period: "Jul 2026 - Nov 2026",
+          period: "Jun 2026 - Nov 2026",
           detail:
             "Nilijenga AI agents kwa jukwaa la grants-management: hiring agent na grant-discovery agent, pamoja na ufuatiliaji wa uzalishaji.",
         },
         {
-          role: "Freelance Developer",
-          org: "Voyager AI GmbH (Germany)",
-          period: "Aug 2026 - Sasa",
-          detail:
-            "Nilijenga na kudumisha huduma za backend kwa brand ya usafiri, pamoja na n8n pipelines zinazotumia Supabase.",
-        },
-        {
-          role: "Mshauri Mkuu wa AI/Tech",
-          org: "LavAna Technologies",
-          period: "2026 - Sasa",
-          detail:
-            "Niliongoza suluhisho za AI, ukaguzi, automation, na ushauri wa maadili.",
-        },
-        {
           role: "Full-Stack Developer",
           org: "Codveda Technologies",
-          period: "2025",
+          period: "Nov 2025 - Des 2025",
           detail: "Nilijenga apps, auth, na kuboresha utendaji wa APIs.",
         },
         {
@@ -745,27 +766,33 @@ const translations = {
       title: "经历",
       items: [
         {
+          role: "DevOps 工程师",
+          org: "Promerget GmbH（柏林，德国）",
+          period: "2026.11 - 至今",
+          detail: "加固生产 Linux 服务器，管理 systemd 部署，支持 Stripe 支付集成，并配置 DNS/邮件送达（SPF、DKIM、DMARC）。",
+        },
+        {
+          role: "AI 工程师",
+          org: "Groundbreaker Talents",
+          period: "2026.10 - 至今",
+          detail: "为内容安全系统构建浏览器自动化，训练并部署基于 YOLO 的图像分类器（ONNX），并进行数据集工程。",
+        },
+        {
+          role: "软件与自动化开发工程师",
+          org: "Voyager AI GmbH（柏林，德国）",
+          period: "2026.7 - 至今",
+          detail: "在自托管 n8n 上构建并维护两套生产自动化系统（Instagram 内容流水线与基于 LLM 代理的 WhatsApp 客服聊天机器人），并使用 Next.js、React、TypeScript 和 Supabase 开发全栈 AI 平台。",
+        },
+        {
           role: "AI 工程师",
           org: "AdminIE Technologies",
-          period: "2026.7 - 2026.11",
+          period: "2026.6 - 2026.11",
           detail: "为企业级拨款管理平台构建 AI 代理产品：人机协同招聘代理与自动拨款发现代理，并负责生产监控。",
-        },
-        {
-          role: "自由开发者",
-          org: "Voyager AI GmbH (德国)",
-          period: "2026.8 - 至今",
-          detail: "为旅游品牌构建并维护后端服务，包括基于 Supabase 的 n8n 社媒发布流水线。",
-        },
-        {
-          role: "AI/技术顾问",
-          org: "LavAna Technologies",
-          period: "2026 - 至今",
-          detail: "为初创与中小企业交付 AI 方案与自动化，并提供合规建议。",
         },
         {
           role: "全栈开发",
           org: "Codveda Technologies",
-          period: "2025",
+          period: "2025.11 - 2025.12",
           detail: "构建 Web 应用、认证系统与 API 性能优化。",
         },
         {
@@ -932,30 +959,37 @@ const translations = {
       title: "الخبرة",
       items: [
         {
+          role: "مهندس DevOps",
+          org: "Promerget GmbH (برلين، المانيا)",
+          period: "نوفمبر 2026 - حتى الان",
+          detail:
+            "تحصين خوادم Linux الانتاجية، ادارة عمليات نشر systemd، دعم تكامل الدفع عبر Stripe، وتهيئة DNS وتسليم البريد الالكتروني (SPF، DKIM، DMARC).",
+        },
+        {
+          role: "مهندس AI",
+          org: "Groundbreaker Talents",
+          period: "اكتوبر 2026 - حتى الان",
+          detail:
+            "بناء اتمتة متصفح لخط انتاج لجمع البيانات، تدريب ونشر مصنف صور قائم على YOLO (ONNX)، وهندسة مجموعة بيانات لنظام سلامة المحتوى.",
+        },
+        {
+          role: "مطور برمجيات واتمتة",
+          org: "Voyager AI GmbH (برلين، المانيا)",
+          period: "يوليو 2026 - حتى الان",
+          detail:
+            "بناء وصيانة نظامي اتمتة انتاجيين على n8n الذاتي الاستضافة (خط نشر Instagram وروبوت دعم WhatsApp بوكيل LLM)، بالاضافة الى منصات AI متكاملة بـ Next.js وReact وTypeScript وSupabase.",
+        },
+        {
           role: "مهندس AI",
           org: "AdminIE Technologies",
-          period: "يوليو 2026 - نوفمبر 2026",
+          period: "يونيو 2026 - نوفمبر 2026",
           detail:
             "بناء منتجات وكلاء AI لمنصة ادارة منح للمؤسسات: وكيل توظيف بمراجعة بشرية ووكيل اكتشاف منح مستقل، مع مراقبة الانتاج.",
         },
         {
-          role: "مطور مستقل",
-          org: "Voyager AI GmbH (المانيا)",
-          period: "اغسطس 2026 - حتى الان",
-          detail:
-            "بناء وصيانة خدمات backend لعلامة سفر، بما في ذلك خطوط نشر n8n مرتبطة بـ Supabase.",
-        },
-        {
-          role: "مستشار AI/Tech",
-          org: "LavAna Technologies",
-          period: "2026 - حتى الان",
-          detail:
-            "حلول ذكاء اصطناعي للشركات الناشئة، تدقيقات، اتمتة، وارشاد اخلاقي.",
-        },
-        {
           role: "مطور Full-Stack",
           org: "Codveda Technologies",
-          period: "2025",
+          period: "نوفمبر 2025 - ديسمبر 2025",
           detail: "تطوير تطبيقات الويب، المصادقة، وتحسين اداء APIs.",
         },
         {
