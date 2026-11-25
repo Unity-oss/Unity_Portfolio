@@ -157,7 +157,21 @@ const translations = {
       title: "Experience",
       items: [
         {
-          role: "Founder + Lead AI/Tech Consultant",
+          role: "AI Engineer",
+          org: "AdminIE Technologies",
+          period: "Jul 2026 - Nov 2026",
+          detail:
+            "Built AI agent products for an enterprise grants-management platform: a human-in-the-loop hiring agent and an autonomous grant-discovery agent, across the Python/FastAPI/LangGraph stack, plus production monitoring and incident response.",
+        },
+        {
+          role: "Freelance Developer",
+          org: "Voyager AI GmbH (Germany)",
+          period: "Aug 2026 - Present",
+          detail:
+            "Build and maintain backend services for a travel brand, including n8n social-publishing pipelines backed by Supabase, working directly with the founder across time zones.",
+        },
+        {
+          role: "Lead AI/Tech Consultant",
           org: "LavAna Technologies",
           period: "2026 - Present",
           detail:
@@ -346,7 +360,21 @@ const translations = {
       title: "Erfahrung",
       items: [
         {
-          role: "Grunder + Lead KI/Tech Consultant",
+          role: "KI-Ingenieur",
+          org: "AdminIE Technologies",
+          period: "Jul 2026 - Nov 2026",
+          detail:
+            "KI-Agenten fur eine Grants-Management-Plattform: Hiring-Agent mit Human-in-the-loop und ein autonomer Grant-Discovery-Agent, plus Produktionsmonitoring.",
+        },
+        {
+          role: "Freelance-Entwickler",
+          org: "Voyager AI GmbH (Deutschland)",
+          period: "Aug 2026 - Heute",
+          detail:
+            "Backend-Services fur eine Reise-Marke, inkl. n8n-Publishing-Pipelines mit Supabase, in direkter Zusammenarbeit mit dem Grunder.",
+        },
+        {
+          role: "Lead KI/Tech Consultant",
           org: "LavAna Technologies",
           period: "2026 - Heute",
           detail:
@@ -525,7 +553,21 @@ const translations = {
       title: "Uzoefu",
       items: [
         {
-          role: "Mwanzilishi + Mshauri Mkuu wa AI/Tech",
+          role: "AI Engineer",
+          org: "AdminIE Technologies",
+          period: "Jul 2026 - Nov 2026",
+          detail:
+            "Nilijenga AI agents kwa jukwaa la grants-management: hiring agent na grant-discovery agent, pamoja na ufuatiliaji wa uzalishaji.",
+        },
+        {
+          role: "Freelance Developer",
+          org: "Voyager AI GmbH (Germany)",
+          period: "Aug 2026 - Sasa",
+          detail:
+            "Nilijenga na kudumisha huduma za backend kwa brand ya usafiri, pamoja na n8n pipelines zinazotumia Supabase.",
+        },
+        {
+          role: "Mshauri Mkuu wa AI/Tech",
           org: "LavAna Technologies",
           period: "2026 - Sasa",
           detail:
@@ -703,7 +745,19 @@ const translations = {
       title: "经历",
       items: [
         {
-          role: "创始人 + AI/技术顾问",
+          role: "AI 工程师",
+          org: "AdminIE Technologies",
+          period: "2026.7 - 2026.11",
+          detail: "为企业级拨款管理平台构建 AI 代理产品：人机协同招聘代理与自动拨款发现代理，并负责生产监控。",
+        },
+        {
+          role: "自由开发者",
+          org: "Voyager AI GmbH (德国)",
+          period: "2026.8 - 至今",
+          detail: "为旅游品牌构建并维护后端服务，包括基于 Supabase 的 n8n 社媒发布流水线。",
+        },
+        {
+          role: "AI/技术顾问",
           org: "LavAna Technologies",
           period: "2026 - 至今",
           detail: "为初创与中小企业交付 AI 方案与自动化，并提供合规建议。",
@@ -878,7 +932,21 @@ const translations = {
       title: "الخبرة",
       items: [
         {
-          role: "المؤسس + مستشار AI/Tech",
+          role: "مهندس AI",
+          org: "AdminIE Technologies",
+          period: "يوليو 2026 - نوفمبر 2026",
+          detail:
+            "بناء منتجات وكلاء AI لمنصة ادارة منح للمؤسسات: وكيل توظيف بمراجعة بشرية ووكيل اكتشاف منح مستقل، مع مراقبة الانتاج.",
+        },
+        {
+          role: "مطور مستقل",
+          org: "Voyager AI GmbH (المانيا)",
+          period: "اغسطس 2026 - حتى الان",
+          detail:
+            "بناء وصيانة خدمات backend لعلامة سفر، بما في ذلك خطوط نشر n8n مرتبطة بـ Supabase.",
+        },
+        {
+          role: "مستشار AI/Tech",
           org: "LavAna Technologies",
           period: "2026 - حتى الان",
           detail:
