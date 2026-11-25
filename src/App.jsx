@@ -78,6 +78,7 @@ const translations = {
         "I build production-grade LLM applications, RAG pipelines, autonomous AI agents, and NLP-powered systems — delivering end-to-end AI products across fintech, healthtech, accessibility, and e-commerce. Deep expertise in LangChain, LangGraph, Hugging Face, and vector search, paired with strong full-stack Python/Django skills and experience integrating SaaS/ERP platforms.",
       ctaPrimary: "See Projects",
       ctaSecondary: "Contact Me",
+      ctaResume: "Download CV",
       badge: "Open to remote + relocation",
     },
     about: {
@@ -157,7 +158,7 @@ const translations = {
       items: [
         {
           role: "Founder + Lead AI/Tech Consultant",
-          org: "Aster Consulting Group",
+          org: "LavAna Technologies",
           period: "2026 - Present",
           detail:
             "Lead end-to-end AI platform implementation for startups and SMEs. Configure SaaS/AI agent solutions, conduct user onboarding and technical training, and serve as the primary liaison between product, engineering, and client success.",
@@ -266,6 +267,7 @@ const translations = {
         "Ich entwickle produktionsreife LLM-Anwendungen, RAG-Pipelines, autonome KI-Agenten und NLP-Systeme fur Fintech, Healthtech und E-Commerce — von der Architektur bis zur Bereitstellung. Starke Full-Stack-Python/Django-Grundlage und Erfahrung mit SaaS/ERP-Plattformen.",
       ctaPrimary: "Projekte ansehen",
       ctaSecondary: "Kontakt",
+      ctaResume: "Lebenslauf herunterladen",
       badge: "Offen fur Remote + Umzug",
     },
     about: {
@@ -345,7 +347,7 @@ const translations = {
       items: [
         {
           role: "Grunder + Lead KI/Tech Consultant",
-          org: "Aster Consulting Group",
+          org: "LavAna Technologies",
           period: "2026 - Heute",
           detail:
             "KI-Losungen fur Startups und KMU, Audits, Automatisierung und ethische Beratung.",
@@ -444,6 +446,7 @@ const translations = {
         "Najenga programu za LLM za daraja la uzalishaji, mabomba ya RAG, mawakala wa AI, na mifumo ya NLP katika sekta ya fedha, afya, na biashara ya mtandao — kutoka usanifu hadi utekelezaji. Uzoefu wa kina wa Python/Django na ujumuishaji wa majukwaa ya SaaS/ERP.",
       ctaPrimary: "Tazama Miradi",
       ctaSecondary: "Wasiliana",
+      ctaResume: "Pakua CV",
       badge: "Niko wazi kwa remote + kuhama",
     },
     about: {
@@ -523,7 +526,7 @@ const translations = {
       items: [
         {
           role: "Mwanzilishi + Mshauri Mkuu wa AI/Tech",
-          org: "Aster Consulting Group",
+          org: "LavAna Technologies",
           period: "2026 - Sasa",
           detail:
             "Niliongoza suluhisho za AI, ukaguzi, automation, na ushauri wa maadili.",
@@ -621,6 +624,7 @@ const translations = {
         "我构建生产级LLM应用、RAG管道、自主AI智能体和NLP系统，在金融科技、医疗科技和电商领域拥有端到端AI产品交付经验。深厚的Python/Django全栈基础，熟悉SaaS/ERP平台集成。",
       ctaPrimary: "查看项目",
       ctaSecondary: "联系我",
+      ctaResume: "下载简历",
       badge: "可远程/可搬迁",
     },
     about: {
@@ -700,7 +704,7 @@ const translations = {
       items: [
         {
           role: "创始人 + AI/技术顾问",
-          org: "Aster Consulting Group",
+          org: "LavAna Technologies",
           period: "2026 - 至今",
           detail: "为初创与中小企业交付 AI 方案与自动化，并提供合规建议。",
         },
@@ -795,6 +799,7 @@ const translations = {
         "ابني تطبيقات LLM على مستوى الانتاج وخطوط انابيب RAG ووكلاء AI مستقلين وانظمة NLP عبر قطاعات التقنية المالية والرعاية الصحية والتجارة الالكترونية — من التصميم الى التنفيذ.",
       ctaPrimary: "عرض المشاريع",
       ctaSecondary: "تواصل معي",
+      ctaResume: "تحميل السيرة الذاتية",
       badge: "متاح للعمل عن بعد والتنقل",
     },
     about: {
@@ -874,7 +879,7 @@ const translations = {
       items: [
         {
           role: "المؤسس + مستشار AI/Tech",
-          org: "Aster Consulting Group",
+          org: "LavAna Technologies",
           period: "2026 - حتى الان",
           detail:
             "حلول ذكاء اصطناعي للشركات الناشئة، تدقيقات، اتمتة، وارشاد اخلاقي.",
@@ -1071,6 +1076,9 @@ function App() {
               </a>
               <a className="btn ghost" href="#contact">
                 {t.hero.ctaSecondary}
+              </a>
+              <a className="btn ghost" href="/UnityBusingye_CV.pdf" download>
+                {t.hero.ctaResume}
               </a>
             </div>
           </div>
